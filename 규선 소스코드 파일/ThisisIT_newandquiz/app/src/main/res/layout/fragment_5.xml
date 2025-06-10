@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 제목 -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="은행 없이 돌아가는 세상"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="기사 제목" />
+
+        <!-- 날짜 및 작성자 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="게시: 2025.06.02. 오후 12:55\n작성: 장훈진"
+            android:textColor="#9E9E9E"
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="게시일 및 작성자" />
+
+        <!-- 공동 스위치 영역 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="6dp"
+                android:text="@nerds"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#590000"
+                android:contentDescription="스위치 라벨" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="쉬운/어려운 전환 스위치" />
+
+        </LinearLayout>
+
+        <!-- 기사 이미지 -->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bitcoin_2_"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="기사 이미지" />
+
+        <!-- 기사 본문 -->
+        <TextView
+            android:id="@+id/article_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2009년, 익명의 인물인 사토시 나카모토에 의해 고안된 비트코인은 중앙 기관의 통제 없이 개인 간의 P2P(Peer-to-Peer) 방식으로 자유로운 가치 교환을 가능하게 하는 혁신적인 디지털 통화입니다. 은행과 같은 중개 기관의 개입 없이 작동하는 비트코인의 핵심 기술은 분산 원장 기술인 블록체인입니다.\n\n블록체인은 시간 순서에 따라 연결된 일련의 데이터 묶음인 '블록'으로 구성되며, 각 블록은 이전 블록의 해시값을 포함하여 체인 형태를 이룹니다. 이러한 구조는 데이터의 임의적인 위변조를 극히 어렵게 만듭니다. 이러한 투명하고 보안성이 높은 기록 시스템 덕분에 신뢰할 수 있는 제3자의 보증 없이도 거래 당사자 간의 직접적인 가치 이전이 가능합니다.\n\n새로운 비트코인은 작업 증명(Proof-of-Work) 방식의 '채굴(mining)' 과정을 통해 발행됩니다. 채굴자(Miner)들은 특정 난이도의 암호학적 퍼즐을 해결하고, 이를 통해 새로운 블록을 블록체인 네트워크에 추가하는 역할을 수행합니다. 이 과정에 대한 보상으로 일정량의 신규 비트코인이 지급됩니다.\n\n비트코인의 총 발행량은 2,100만 개로 제한되어 있어 희소성을 가지며, 이는 디지털 자산으로서의 가치를 형성하는 요인 중 하나로 분석됩니다.\n\n비트코인 거래는 공개 키 암호화 방식을 기반으로 익명성과 보안성을 확보합니다. 개인 키와 공개 키 쌍을 이용하여 거래를 인증하며, 거래 기록은 블록체인에 투명하게 기록되지만 거래 주체의 신원은 암호화되어 보호됩니다.\n\n탈중앙성, 투명성, 보안성을 특징으로 하는 비트코인은 기존 금융 시스템에 대한 대안으로서의 잠재력을 내포하고 있으며, 디지털 자산 클래스로서의 입지를 점진적으로 확대하고 있는 추세입니다."
+            android:textColor="#590000"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="48dp"
+            android:contentDescription="기사 본문 내용" />
+
+        <!-- 보상 버튼 영역 (랜덤 1개 표시) -->
+        <Button
+            android:id="@+id/btn_bonus_retry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재시도 기회 한 번 더! SD카드 획득하기"
+            android:visibility="gone"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="재시도 보상 버튼" />
+
+        <Button
+            android:id="@+id/btn_bonus_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="색이 다른 SD카드 획득하기"
+            android:visibility="gone"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="컬러 SD카드 보상 버튼" />
+
+        <Button
+            android:id="@+id/btn_bonus_boost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="확률 UP! SD카드 획득하기"
+            android:visibility="gone"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:contentDescription="확률 증가 보상 버튼" />
+
+        <!-- 로고 + 출처/저작권 문구 영역 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="48dp"
+            android:paddingBottom="32dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THISISIT"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#888888"
+                android:layout_marginBottom="4dp"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="본 콘텐츠는 일부 직접 제작된 자료와 타 저작물에서 참고한 요소를 포함하고 있습니다.\n일부 콘텐츠는 원 저작권자 또는 제공처에 저작권이 있으며, 무단 사용 시 관련 법령에 따라 법적 책임이 따를 수 있습니다."
+                android:textSize="10sp"
+                android:textColor="#999999"
+                android:gravity="center"
+                android:lineSpacingExtra="3dp"
+                android:contentDescription="저작권 안내" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context=".Fragment4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_vertical|right">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="4dp"
+                        android:gravity="right"
+                        android:text="\@everyone"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="은행 없이 돌아가는 세상"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="게시: 2025.06.02. 오후 12:52"
+                    android:textColor="#9E9E9E"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="작성: 장훈진"
+                    android:textColor="#9E9E9E"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/bitcoin_2_" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2009년, 사토시 나카모토라는 익명의 인물이 창안한 비트코인은 중앙 기관의 통제 없이 개인 간의 자유로운 거래를 가능하게 하는 혁신적인 디지털 화폐입니다. 은행과 같은 중개자 없이 작동하는 비트코인의 핵심에는 블록체인이라는 기술이 있어요.\n\n블록체인은 거래 기록을 담은 '블록'들이 시간 순서대로 연결된 '사슬(chain)' 구조를 가져요. 각 블록은 이전 블록의 정보를 포함하고 있어서 임의로 데이터를 위변조하는 것이 극히 어렵답니다. 이러한 투명하고 안전한 기록 시스템 덕분에 신뢰할 수 있는 제3자 없이도 거래 당사자 간의 직접적인 가치 교환이 가능해져요.\n\n새로운 비트코인은 '채굴(mining)'이라는 과정을 통해 발행돼요. 채굴자들은 복잡한 수학 문제를 풀고, 이를 통해 새로운 블록을 블록체인에 추가하는 역할을 해요. 이 과정에 대한 보상으로 새로운 비트코인을 얻게 되는 거죠.\n\n비트코인의 총 발행량은 2,100만 개로 제한되어 있어서 희소성을 가지며, 이는 '디지털 금'이라고 불리는 이유 중 하나예요.\n\n비트코인 거래는 암호화 기술을 통해 익명성과 보안성을 확보해요. 개인 키와 공개 키라는 두 개의 암호 키를 이용하여 거래를 승인하고, 거래 내역은 블록체인에 공개적으로 기록되지만 거래 당사자의 신원은 암호화되어 보호된답니다.\n\n탈중앙성, 투명성, 보안성을 특징으로 하는 비트코인은 금융 시스템의 혁신을 가져올 잠재력을 지니고 있으며, 디지털 자산으로서의 가치를 인정받으며 점차 그 영역을 넓혀가고 있어요."
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/btn_sdcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="SD 카드 획득하기"
+                    android:textSize="16sp"
+                    android:paddingStart="24dp"
+                    android:paddingEnd="24dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="48dp"
+                    android:contentDescription="SD카드 획득 버튼" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="24dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="24dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="115dp"
+                android:layout_height="64dp"
+                android:src="@drawable/copyright" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#9E9E9E" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="2dp"
+                android:text="본 콘텐츠는 일부 직접 제작된 자료와 타 저작물에서 참고한 요소를 포함하고 있습니다."
+                android:textColor="#9E9E9E"
+                android:textSize="9dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="2dp"
+                android:text="일부 콘텐츠는 원 저작권자(또는 제공처에 저작권이 있으며, 무단 사용 시 관련 법령에 따라 법적 책임이 따를 수 있습니다."
+                android:textColor="#9E9E9E"
+                android:textSize="9dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

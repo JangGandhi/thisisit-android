@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9FF">
+
+    <!-- 상단 로고 이미지 -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="앱 로고"
+        android:padding="8dp"
+        android:src="@drawable/logo" />
+
+    <!-- 탭 형태 수평 메뉴 -->
+    <LinearLayout
+        android:id="@+id/custom_tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/tab_news"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="뉴스"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tab_library"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="라이브러리"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textColor="#AAAAAA" />
+
+        <TextView
+            android:id="@+id/tab_profile"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="프로필"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textColor="#AAAAAA" />
+    </LinearLayout>
+
+    <!-- 프래그먼트 표시 영역 -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
