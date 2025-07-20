@@ -30,7 +30,7 @@ SD카드를 클릭하면 해당 기사의 내용이 요약되어 표시되고, 3
 ![Image](https://github.com/user-attachments/assets/83ca1c4d-3653-4745-adc2-b9c258a0a387)<br><br>
 
 ### 6. 애플리케이션 이용 통계
-사용자는 프로필에서 thisisIT 이용 통계를 확인할 수 있습니다.<br><br>
+사용자는 프로필에서 thisisIT 이용 통계를 확인할 수 있습니다.
 
 ## 유의사항
 본 애플리케이션에 사용된 리소스는 AI를 통해 생성되었습니다.
