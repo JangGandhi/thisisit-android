@@ -12,9 +12,9 @@ IT 관련 소식과 정보를 제공하는 기사 애플리케이션으로, 수�
 
 ## 시연 영상
 
-![Image](https://github.com/user-attachments/assets/a56e6a8f-0c1d-4947-a7f5-75c0a7be2edf)
+![Image](https://github.com/user-attachments/assets/d90ccd92-08bb-496a-b16b-710c3fe48b85)
 
-![Image](https://github.com/user-attachments/assets/4b85dd61-844e-4631-9a4c-c35b3d015590)
+![Image](https://github.com/user-attachments/assets/aea51887-c295-4a99-838c-68d7a3c1f8fa)
 
 ![Image](https://github.com/user-attachments/assets/b4dba28b-a6df-4a71-9329-f0db2074e8ae)
 
