@@ -12,14 +12,7 @@ IT 관련 소식과 정보를 제공하는 기사 애플리케이션으로, 수�
 
 ## 시연 영상
 
-### @everyone, @nerds
 ![Image](https://github.com/user-attachments/assets/c16daab3-ba30-4968-8809-5802cb94ee71)
-
-### 문제 화면
 ![Image](https://github.com/user-attachments/assets/fa6d9621-f57f-4d52-a44a-b6c69f2b3de1)
-
-### 정답률에 따라 확률이 동적으로 상승
 ![Image](https://github.com/user-attachments/assets/7ee9980e-3910-4bf2-9ab5-6faea15dc6eb)
-
-### 수집한 SD카드 확인
 ![Image](https://github.com/user-attachments/assets/3937b87a-2c1b-4da8-9147-6ffde3aefebc)
