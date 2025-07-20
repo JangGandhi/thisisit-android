@@ -13,7 +13,7 @@ IT 관련 소식과 정보를 제공하는 기사 애플리케이션으로, 수�
 ## 시연 영상
 
 ### (1) @everyone, @nerds
-![Image](https://github.com/user-attachments/assets/c16daab3-ba30-4968-8809-5802cb94ee71)
+![@everyone, @nerds](https://github.com/user-attachments/assets/c16daab3-ba30-4968-8809-5802cb94ee71)
 
 ### (2) 문제 화면
 ![Image](https://github.com/user-attachments/assets/fa6d9621-f57f-4d52-a44a-b6c69f2b3de1)
